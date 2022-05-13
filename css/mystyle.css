@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+   font-family: 'Open Sans', sans-serif;
+}
+.container {width: 65%;margin: auto;}
+header {background: #265599;padding: 10px 0px;}
+header::after{
+content:'';
+clear: both;
+display: block;}
+.logo-area img {width: 171px;margin-top: 15px;}
+
+.logo-area {float: left;width: 30%;}
+.login-area {width: 70%;float: left;color: white;text-transform:;}
+.login-area form {float: right;}
+.login-area label,
+.login-area input{
+ display:block;	
+ font-size: 14px;margin-bottom: 5px;}
+
+.login-area .email,
+.login-area .password,
+.login-area .loging {
+	float:left;
+	margin-right:16px;
+}
+.login-area .loging{
+	margin:0px;
+}
+.login-area .password a {text-decoration: none;color: white;font-size: 12px;}
+.login-area .password a:hover{
+	text-decoration:underline;
+}
+.login-area input[type="submit"]{
+	color: #ffffff;
+	background: #265599;
+	margin-top: 23px;
+	border-color: #73a7f3;
+	text-transform: capitalize;
+}
+.left_area {width: 55%;float: left;}
+.left_area p {color: #265599;font-size: 30px;margin-top: 0px;width: 90%;}
+section.signup_area {background-image: linear-gradient(#f9fafc, #e5e8f1);overflow: hidden;padding: 40px 0px;}
+.left_area img {width: 100%;}
+.right_area {width: 45%;float: left;}
+
+.right_area h2 {font-size: 36px;margin: 0px;color: #1a1717;}
+.right_area h5 {font-size: 20px;color: black;margin: 8px 0px;}
+
+
+.right_area input[type="text"],
+.right_area input[type="password"]{
+	
+	 width:100%;
+     box-sizing: border-box;
+     padding: 8px 8px;
+     margin: 5px 0px;
+	 font-size: 20px;
+	 border: 1px solid #9eb2cf;
+	 border-radius: 5px;
+	 }
+.full_name {overflow: hidden;}
+.first_name {width: 48%;float: left;margin-right: 4%;}
+
+.last_name {width: 48%;float: left;}
+
+.signup_area::after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.birthday{
+	overflow: hidden;
+}
+.chose_gender label {font-size: 20px;font-weight: 600;}
+
+.birthday h4 {
+	margin-top: 0;
+    margin-bottom: 11px;
+}
+.birth_date{
+	overflow: hidden;
+	float: left;
+    margin-right: 10px;
+    width: 201px;
+	}
+.birth_date select {
+	border: 1px solid gray;
+    padding: 6px;
+	float: left;
+ }
+ 
+.birth_links{
+	float: left;
+	width: 333px;
+}
+.birth_links a {
+	font-size: 19px;
+    line-height: 0.9;
+	display: block;text-decoration: none;
+	}
+.birth_links a:hover{
+		
+		text-decoration:underline;
+	}
+.text-box {margin-bottom: 25px;}
+.text-box p {font-size: 14px;color: #132054;width: 84%;}
+.singup_btn input {box-shadow: inset 0px 1px 1px #46d78e;border: 1px solid;border-radius: 5px;padding: 10px;
+min-width: 254px;
+font-size: 20px;
+font-weight: 800;
+color: white;
+background:linear-gradient(#059862, green);
+}
+.singup_btn {margin-bottom: 25px;}
+.singup_btn input:hover{
+	background:linear-gradient( green, #059862);
+}
+span.page_link {font-size: 17px;font-weight: 800;}
+span.page_link  a{
+	text-decoration:none;
+}
+span.page_link a:hover{
+	text-decoration:underline;
+}
+footer ul li {display: inline;}
+
+footer ul li a {text-decoration: none;color: black;font-size: 15px;}
+
+footer .top_bar ul li {margin-right: 10px;}
+
+footer .middle_bar ul li {margin-right: 12px;}
+footer .top_bar ul li:last-child,
+footer .middle_bar ul li :last-child{
+	margin-right:0px;
+}
+.bottom_bar{
+	
+padding: 10px 0px;}
+footer hr {width: 96%;border: 0;border-bottom: 1px solid #898d8b;}
+.bottom_bar span {margin: 5px 38px;color: #265599;}
